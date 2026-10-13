@@ -1,3 +1,10 @@
+> **About this fork.** flutter_tts 4.2.5, unchanged except for two build
+> migrations: Android builds with AGP 9 built-in Kotlin (the host app needs
+> `android.builtInKotlin=true`), and iOS builds as a Swift Package Manager
+> package (CocoaPods still works). No behavior changes. Kept for one app's own
+> use, with no support offered; prefer the upstream package where it works for you.
+> Use it as a git dependency pinned to a tag, e.g. `v4.2.5-agp9-spm.1`.
+
 # Text To Speech
 
 [![pub package](https://img.shields.io/pub/v/flutter_tts.svg?style=for-the-badge&colorB=green)](https://pub.dartlang.org/packages/flutter_tts)
